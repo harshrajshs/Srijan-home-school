@@ -51,40 +51,47 @@ Srijan Home School is a comprehensive platform designed to manage student perfor
 
 3. Install the necessary dependencies for both frontend and backend:
    ```bash
-    cd client
-    npm install
-    cd..
-    cd server
-    npm install
-  ```
+   cd client
+   npm install
+   cd..
+   cd server
+   npm install
+   ```
 
 4. Set up environment variables:
+   
+    - Create a.env file in the root directory.
+    -  Add your MongoDB URI, session secret, and any other required environment variables.
 
-    Create a.env file in the root directory.
-    Add your MongoDB URI, session secret, and any other required environment variables.
+5. Start the clent:
+   ```bash
+   cd..
+   cd client
+   npm start
+   ```
+6. Start the Deveopement server:
+   ```bash
+   cd..
+   cd server
+   npm run dev
+   ```
 
-Start the development server:
+ 7. Access the application in your browser at:
+    ```bash
+    http://localhost:3000
+    ```
 
-bash
+## Usage
 
-    npm run dev
+   - Students: Register and log in to access tests and view scores.
+   - Admins: Use your admin credentials to log in and manage tests, questions, and announcements.
 
-    Access the application in your browser at http://localhost:3000.
+## Future Improvements
 
-Usage
+   - Add role-based access control for different user levels.
+   - Implement real-time notifications for new tests and announcements.
+   - Enhance the user interface with more interactive elements.
 
-    Students: Register and log in to access tests and view scores.
-    Admins: Use your admin credentials to log in and manage tests, questions, and announcements.
+## Contributing
 
-Future Improvements
-
-    Add role-based access control for different user levels.
-    Implement real-time notifications for new tests and announcements.
-    Enhance the user interface with more interactive elements.
-
-Contributing
-
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-License
-
-This project is licensed under the MIT License.
+   - If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
